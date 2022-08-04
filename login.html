@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./login.css" />
+    <script src="./login.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="myNav">
+        <li class="myPage">
+          <a class="link" href="./conection.html">Conection</a>
+        </li>
+        <li class="myPage"><a class="link" href="./login.html">Login</a></li>
+      </ul>
+    </nav>
+    <h1 id="title"></h1>
+    <div id="wrap">
+      <div class="inner-wrap">
+        <span for="email">Email</span>
+        <input
+          type="text"
+          id="email"
+          name="eamil"
+          placeholder="please enter youre email"
+        />
+      </div>
+      <div class="inner-wrap">
+        <span for="password">Password</span>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="please enter youre password"
+        />
+      </div>
+      <button class="sendbutton" type="button" onclick="log()">Conect</button>
+    </div>
+    <div class="IsUser">
+      <div class="wrapImputes">
+        <input type="number" placeholder="This is r color" />
+        <input type="number" placeholder="This is g color" />
+        <input type="number" placeholder="This is b color" />
+        <button onclick="colorToTitle()">Desplay</button>
+        <div id="myColor"></div>
+      </div>
+      <button onclick="Save()">Save Color</button>
+    </div>
+  </body>
+</html>

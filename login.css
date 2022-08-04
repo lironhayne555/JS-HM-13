@@ -1,0 +1,36 @@
+ul.myNav
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   
+}
+a.link{
+    float: left;
+    text-align: center;
+
+}
+div.IsUser{
+    display: none;
+}
+nav{
+    background-color: black;
+    width: 100%;
+    display: inline-block;
+    padding: 21px;
+    top: 0;
+    margin-bottom: 3%;
+    margin-top: -2%;
+    margin-left: -2%;
+}
+a.link{
+    float: left;
+    text-align: center;
+    text-decoration-line: none;
+    color: white;
+    margin: 1%;
+}
+div.inner-wrap{
+    width: 50%;
+    margin: 7%;
+}

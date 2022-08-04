@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./conection.css" />
+    <script src="./conection.js" defer></script>
+    <title>conection</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="myNav">
+        <li class="myPage">
+          <a class="link" href="./conection.html">Conection</a>
+        </li>
+        <li class="myPage"><a class="link" href="./login.html">Login</a></li>
+      </ul>
+    </nav>
+    <div class="wrap">
+      <div class="inner-wrap">
+        <span for="user">User Name</span>
+        <input
+          type="text"
+          id="userName"
+          name="userName"
+          placeholder="please enter youre user"
+        />
+      </div>
+      <div class="inner-wrap">
+        <span for="email">Email</span>
+        <input
+          type="text"
+          id="email"
+          name="eamil"
+          placeholder="please enter youre email"
+        />
+      </div>
+      <div class="inner-wrap">
+        <span for="password">Password</span>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="please enter youre password"
+        />
+      </div>
+      <button class="sendbutton" type="button" onclick="SaveUser()">
+        Log in
+      </button>
+    </div>
+  </body>
+</html>
